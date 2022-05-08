@@ -1,5 +1,5 @@
 <h2 style="text-align: center;"><u>POC - Dockers Edition</u></h2>
-<h3 ><u>Please note, nginx configuration is not complete yet!/u></h3>
+<h3 ><u>Please note, nginx configuration is not complete yet!</u></h3>
 <p>This is a POC test for DevOps position. It contains Jenkins pipeline running Vgarant script to build one ubuntu VM, Ansible playbooks for building and running dockerized nginx and apache servers and a test phase.</p>
 <h4><strong>Prerequisites:</strong></h4>
 <p>1. Jenkins Server (v2.332.3) with Ansible plugin (v1.1)</p>
