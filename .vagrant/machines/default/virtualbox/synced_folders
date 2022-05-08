@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/resources/":{"create":true,"guestpath":"/home/vagrant/resources","hostpath":"/home/noy/Desktop/POC/Docker-Based/resources","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/home/noy/Desktop/POC/Docker-Based","disabled":false,"__vagrantfile":true}}}
