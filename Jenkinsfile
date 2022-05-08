@@ -1,15 +1,15 @@
-// properties([githubProjectProperty(displayName: '', projectUrlStr: 'https://github.com/NoyPhilosof/POC-TEST.git/')])
+properties([githubProjectProperty(displayName: '', projectUrlStr: 'https://github.com/NoyPhilosof/POC-TEST-Docker.git/')])
 
 pipeline {
     agent { label 'ubuntu' }
 
     stages {
         
-        // stage('Clone Repo') {
-        //     steps {
-        //         git branch: 'main', url: 'http://github.com/NoyPhilosof/POC-TEST.git'
-        //     }
-        // }
+        stage('Clone Repo') {
+            steps {
+                git branch: 'main', url: 'http://github.com/NoyPhilosof/POC-TEST-Docker.git'
+            }
+        }
         
         
         stage('Create SSH Key') {
