@@ -1,4 +1,4 @@
-<h2 style="text-align: center;"><u>POC - Dockers Edition</u></h2>
+<h2 style="text-align: center;"><u>POC Test - Docker Edition</u></h2>
 <h3 ><u>Please note, the nginx configuration is not complete yet!</u></h3>
 <p>This is a POC test for DevOps position. It contains Jenkins pipeline running Vgarant script to build one ubuntu VM, Ansible playbooks for building and running dockerized nginx and apache servers and a test phase.</p>
 <h4><strong>Prerequisites:</strong></h4>
